@@ -1,5 +1,7 @@
 ### Airflow local installation
 
+The simple tutorial is based on the quick start guide taken from the official Apache Airflow Documentation page.
+
 https://airflow.apache.org/docs/apache-airflow/stable/start/local.html
 
 Airflow needs a home. '~/airflow' is the default, but you can put it
@@ -34,7 +36,7 @@ airflow standalone
 
 Visit localhost:8080 in the browser and use the admin account details
 shown on the terminal to login.
-Enable the example_bash_operator dag in the home page
+Enable the example_bash_operator dag in the home page.
 
 ### Activate and run the DAG
 
